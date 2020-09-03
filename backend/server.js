@@ -2,12 +2,12 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-import config from './config';
-import userRoute from './routes/userRoute';
-import productRoute from './routes/productRoute';
-import orderRoute from './routes/orderRoute';
-import uploadRoute from './routes/uploadRoute';
-import customRoute from './routes/customRoute';
+const config = require('./config');
+const userRoute = require('./routes/userRoute');
+const productRoute = require('./routes/productRoute');
+const orderRoute = require('./routes/orderRoute');
+const uploadRoute = require('./routes/uploadRoute');
+const customRoute = require('./routes/customRoute');
 
 const mongodbUrl = config.MONGODB_URL;
 mongoose
