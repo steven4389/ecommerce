@@ -25,4 +25,4 @@ router.put("/:id", isAuth, isAdmin, async (req, res) => {
     res.send(custom);
   });
 
-  module.exports = router;
+export default router;
